@@ -14,11 +14,14 @@ library(rpdo)
 library(ggplot2)
 
 data(pdo)
-ggplot(data = pdo, aes(x = Year, y = PDO)) + facet_wrap(~Month) + geom_line() +
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5))
+ggplot(data = subset(pdo, pdo$Month == 1), aes(x = Year, y = PDO)) + 
+  geom_line() + ylab("January PDO Index")
 ```
 
-![](README_files/figure-markdown_github/unnamed-chunk-1-1.png)
+<img src="README_files/figure-markdown_github/unnamed-chunk-1-1.png" alt="Pacific Decadal Oscillation (PDO) Index for January by year."  />
+<p class="caption">
+Pacific Decadal Oscillation (PDO) Index for January by year.
+</p>
 
 Further Information
 -------------------
