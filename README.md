@@ -3,7 +3,7 @@
 
 # rpdo
 
-[![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)](https://github.com/joethorley/stability-badges#stable)
+[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![Travis-CI Build
 Status](https://travis-ci.org/poissonconsulting/rpdo.svg?branch=master)](https://travis-ci.org/poissonconsulting/rpdo)
 [![Coverage
@@ -13,9 +13,10 @@ CC0](https://img.shields.io/badge/License-CC0-blue.svg)](https://creativecommons
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/rpdo)](https://cran.r-project.org/package=rpdo)
 [![CRAN
 Downloads](http://cranlogs.r-pkg.org/badges/grand-total/rpdo)](https://CRAN.R-project.org/package=rpdo)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1163733.svg)](https://doi.org/10.5281/zenodo.1163733)
 
 `rpdo` is an R data package of Monthly Pacific Decadal Oscillation (PDO)
-index values from January 1900 to December 2017.
+index values from January 1900 to June 2018.
 
 The function `pdo_download()` scrapes the most recent data from
 <http://research.jisao.washington.edu/pdo/PDO.latest>.
@@ -55,8 +56,8 @@ year.](tools/README-unnamed-chunk-2-1.png)
 To cite package 'rpdo' in publications use:
 
   Joe Thorley, Nathan Mantua and Steven R. Hare (2018). rpdo:
-  Pacific Decadal Oscillation Index Data. R package version 0.2.3.
-  https://github.com/poissonconsulting/rpdo
+  Pacific Decadal Oscillation Index Data. R package version
+  0.2.3.9001. https://github.com/poissonconsulting/rpdo
 
 A BibTeX entry for LaTeX users is
 
@@ -64,7 +65,7 @@ A BibTeX entry for LaTeX users is
     title = {rpdo: Pacific Decadal Oscillation Index Data},
     author = {Joe Thorley and Nathan Mantua and Steven R. Hare},
     year = {2018},
-    note = {R package version 0.2.3},
+    note = {R package version 0.2.3.9001},
     url = {https://github.com/poissonconsulting/rpdo},
   }
 ```
@@ -83,8 +84,8 @@ abide by its terms.
 
 ## See Also
 
-The `rsoi` package provides El Nino/Southern Oscillation (ENSO) and
-Related Climate Indices.
+The [`rsoi`](https://github.com/boshek/rsoi) package provides El
+Nino/Southern Oscillation (ENSO) and Related Climate Indices.
 
 ## Information
 
