@@ -6,9 +6,9 @@
 \title{Pacific Decadal Oscillation Index}
 \format{A tbl data frame:
 \describe{
-  \item{Year}{The year as an integer.}
-  \item{Month}{The month as an integer.}
-  \item{PDO}{The Pacific Decadal Oscillation index as a numeric.}
+\item{Year}{The year as an integer.}
+\item{Month}{The month as an integer.}
+\item{PDO}{The Pacific Decadal Oscillation index as a numeric.}
 }}
 \usage{
 pdo
@@ -25,6 +25,7 @@ library(ggplot2)
 
 data(pdo)
 ggplot(data = subset(pdo, pdo$Month == 1), aes(x = Year, y = PDO)) +
- geom_line() + ylab("January PDO Index")
+  geom_line() +
+  ylab("January PDO Index")
 }
 \keyword{datasets}
