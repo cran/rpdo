@@ -1,18 +1,17 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# rpdo
+# rpdo <img src="man/figures/logo.png" align="right" />
 
 <!-- badges: start -->
 
-[![lifecycle](https://img.shields.io/badge/lifecycle-superseded-orange.svg)](https://www.tidyverse.org/lifecycle/#superseded)
-[![R build
-status](https://github.com/poissonconsulting/rpdo/workflows/R-CMD-check/badge.svg)](https://github.com/poissonconsulting/rpdo/actions)
-[![Codecov test
-coverage](https://codecov.io/gh/poissonconsulting/rpdo/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/rpdo?branch=master)
+[![Lifecycle:
+superseded](https://img.shields.io/badge/lifecycle-superseded-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#superseded)
+[![R-CMD-check](https://github.com/poissonconsulting/rpdo/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/poissonconsulting/rpdo/actions/workflows/R-CMD-check.yaml)
+[![Codecov](https://codecov.io/gh/poissonconsulting/rpdo/graph/badge.svg)](https://app.codecov.io/gh/poissonconsulting/rpdo)
 [![License:
 CC0](https://img.shields.io/badge/License-CC0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/rpdo)](https://cran.r-project.org/package=rpdo)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/rpdo)](https://cran.r-project.org/package=rpdo)
 ![CRAN Downloads](http://cranlogs.r-pkg.org/badges/rpdo)
 <!-- badges: end -->
 
@@ -42,11 +41,15 @@ ggplot(data = data, aes(x = Year, y = PDO)) +
   geom_smooth(span = 0.1, se = FALSE, color = "black", method = "loess") +
   geom_point() +
   ylab("January PDO Index")
-#> `geom_smooth()` using formula 'y ~ x'
+#> `geom_smooth()` using formula = 'y ~ x'
 ```
 
-![Pacific Decadal Oscillation (PDO) Index for January by
-year.](man/figures/README-unnamed-chunk-2-1.png)
+<figure>
+<img src="man/figures/README-unnamed-chunk-2-1.png"
+alt="Pacific Decadal Oscillation (PDO) Index for January by year." />
+<figcaption aria-hidden="true">Pacific Decadal Oscillation (PDO) Index
+for January by year.</figcaption>
+</figure>
 
 ## Installation
 

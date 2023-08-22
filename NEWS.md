@@ -1,3 +1,10 @@
+<!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
+
+# rpdo 0.3.2
+
+- Update package documentation.
+
+
 # rpdo 0.3.1
 
 - Superseded by `rsoi` package which includes the historical and most recent monthly PDO index values together with related climate indices.
